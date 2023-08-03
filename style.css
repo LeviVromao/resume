@@ -1,0 +1,66 @@
+body, * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto-mono', sans-serif;
+}
+
+body {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    padding: 18px;
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 3px solid blue;
+    border-top: 3px solid blue;
+    color: blue;
+}
+
+.description {
+    font-size: 17px;
+}
+
+.section-title {
+    text-align: center;
+    border-top: 3px solid blue;
+    font-size: 27px;
+    margin-bottom: 15px;
+    color: blue;
+}
+
+.my-info {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.projects h2 {
+    font-size: 28px;
+}
+
+.projects li {
+    font-size: 17px;
+    line-height: 24px;
+}
+
+span{
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.courses li {
+    font-size: 17px;
+    line-height: 21px;
+    margin-bottom: 13px;
+}
+
+.skills li {
+    font-size: 17px;
+    margin-bottom: 8px;
+    line-height: 22px;
+}
